@@ -121,6 +121,201 @@ print(substraction)
 Multiplication = 4 * arr2d
 print(Multiplication)
 ```
+---
+# Pandas Operations
+
+# Step 9 – Install Pandas
+```python 
+pip install pandas
+```
+This installs the Pandas library.
+
+## Step 10 – Import Pandas
+```python 
+import pandas as pd
+```
+
+## Step 11 – Create a Pandas Series
+A Pandas Series is a one-dimensional labeled array.
+```python s = pd.Series([1,2,3,'angel',4,5])
+print(s)```
+
+## Step 12 – Create a DataFrame
+
+A DataFrame was created from a dictionary.
+```python df = {
+'name':["David","sarah","moses"],
+'age':[59,20,33],
+'location':['boston','adenta','columbus']
+}
+data = pd.DataFrame(df)
+print(data)
+```
+
+## Step 13 – Create Another DataFrame
+```python 
+data = 
+{'name':['john','alice','Bod'],
+'age':[30,25,35],
+'city':['newyork','paris','london']
+}
+
+df = pd.DataFrame(data)
+print(df)```
+## Step 14 – Access Elements in a Series
+```python
+print(s[0])```
+This retrieves the first element of the Series.
+
+## Step 15 – Access DataFrame Columns
+```python 
+df[['name']] 
+```
+
+This returns the name column from the DataFrame.
+
+## Step 16 – Create Multiple DataFramesDataFrames
+
+```python
+df_1 = pd.DataFrame({'a':[4,2,6],'b':['m','n','o']})
+df_2 = pd.DataFrame({'a':[45,8,9],'b':['x','y','z']})
+```
+
+
+⸻
+
+## Step 17 – Vertical Concatenation
+
+```python
+vertical_com = pd.concat([df_1,df_2], 
+axis=0, keys=['df_1','df_2'])
+vertical_com
+```
+
+This combines DataFrames row-wise.
+
+⸻
+
+## Step 18 – Horizontal Concatenation
+
+```python
+horizontal_com = pd.concat([df_1,df_2], axis=1, keys=['df_1','df_2'])
+horizontal_com
+```
+
+This combines DataFrames column-wise.
+
+⸻
+
+## Step 19 – Access Values Using loc
+
+```python 
+vertical_com.loc['df_1',0]
+
+```
+
+
+⸻
+
+## Step 20 – Access Specific Element
+
+```python
+vertical_com.loc["df_1",0].iloc[0]
+```
+
+
+⸻
+
+## Commands Executed
+
+## All commands used in the lab:
+
+``` python 
+import numpy as np
+import pandas as pd
+
+arr1d=np.array([1,2,3,4,5])
+arr2d=np.array([[1,2,3],[4,5,6]])
+
+zeros_arr = np.zeros((3,4))
+
+shape=arr2d.shape
+size=arr2d.size
+data_type=arr2d.dtype
+
+addition=2+arr2d
+substraction=arr2d-3
+Multiplication=4*arr2d
+
+s=pd.Series([1,2,3,'angel',4,5])
+
+df=pd.DataFrame({'name':['john','alice','Bod'],'age':[30,25,35],'city':['newyork','paris','london']})
+
+df_1=pd.DataFrame({'a':[4,2,6],'b':['m','n','o']})
+df_2=pd.DataFrame({'a':[45,8,9],'b':['x','y','z']})
+
+vertical_com=pd.concat([df_1,df_2], axis=0, keys=['df_1','df_2'])
+
+horizontal_com=pd.concat([df_1,df_2], axis=1, keys=['df_1','df_2'])
+
+vertical_com.loc["df_1",0].iloc[0]```
+
+
+⸻
+
+Screenshots of Results
+
+Include screenshots showing:
+	•	NumPy arrays
+	•	array operations
+	•	Pandas Series output
+	•	DataFrame creation
+	•	concatenation results
+
+Example:
+
+![NumPy Array Output](screenshots/numpy_array_creation.png)
+
+![Pandas DataFrame](screenshots/pandas_dataframe.png)
+
+
+⸻
+
+Key Observations
+
+During this lab the following observations were made:
+	•	NumPy arrays allow efficient numerical operations.
+	•	Vectorized operations make calculations faster than regular Python loops.
+	•	Pandas Series provide labeled one-dimensional data structures.
+	•	Pandas DataFrames allow structured tabular data manipulation.
+	•	Concatenation allows combining multiple DataFrames for analysis.
+
+⸻
+
+Lessons Learned
+
+From this lab, the following skills were gained:
+	•	creating NumPy arrays
+	•	understanding array properties such as shape and size
+	•	performing vectorized numerical operations
+	•	creating Pandas Series and DataFrames
+	•	accessing data in Pandas objects
+	•	combining datasets using concatenation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
