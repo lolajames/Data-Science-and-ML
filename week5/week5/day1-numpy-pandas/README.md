@@ -312,12 +312,41 @@ Screenshots of Results
 
 <img width="601" height="325" alt="image" src="https://github.com/user-attachments/assets/9552a748-dd4e-4ae6-9f7d-2050a549af8e" />
 
+<img width="491" height="202" alt="image" src="https://github.com/user-attachments/assets/8274854a-9332-485c-bd6a-ddf64e3c2734" />
+<img width="514" height="274" alt="image" src="https://github.com/user-attachments/assets/461bd95b-f156-40db-819f-431fb67b8f20" />
+
+<img width="409" height="269" alt="image" src="https://github.com/user-attachments/assets/16fcc2a4-42a1-43ab-bcda-de697e157aa6" />
+
+<img width="453" height="409" alt="image" src="https://github.com/user-attachments/assets/e5fba1c3-56fb-442d-82c9-be5d56a36b87" />
+<img width="545" height="420" alt="image" src="https://github.com/user-attachments/assets/755ea732-8ef0-4a38-8194-94d621b14f92" />
+<img width="507" height="303" alt="image" src="https://github.com/user-attachments/assets/ca5c046e-bb19-4b0e-aa87-e77609778238" />
+
+<img width="626" height="389" alt="image" src="https://github.com/user-attachments/assets/e840724f-f966-4064-b767-7d2be6b360a9" />
+<img width="482" height="376" alt="image" src="https://github.com/user-attachments/assets/0ccc3d60-c20d-41af-bc48-bd0df5474257" />
+<img width="623" height="424" alt="image" src="https://github.com/user-attachments/assets/44863c88-e185-4d8d-93b4-bfd9df444153" />
+<img width="594" height="403" alt="image" src="https://github.com/user-attachments/assets/295456f7-9631-4086-abc3-100193878243" />
+
+<img width="415" height="405" alt="image" src="https://github.com/user-attachments/assets/ac37d07c-7158-4297-95a8-6110313954f8" />
+<img width="516" height="315" alt="image" src="https://github.com/user-attachments/assets/5424ddb2-4762-45e5-b825-6361f8060c7a" />
+
+<img width="605" height="339" alt="image" src="https://github.com/user-attachments/assets/d5e914e4-842a-413d-91a8-2810e1966ab4" />
+
+<img width="603" height="357" alt="image" src="https://github.com/user-attachments/assets/3d980fda-02c9-4df1-8529-54239a08698d" />
+
+<img width="534" height="461" alt="image" src="https://github.com/user-attachments/assets/1f6c259e-1fa7-4b39-b75d-e2ef5f2b5239" />
+
+<img width="504" height="436" alt="image" src="https://github.com/user-attachments/assets/a90d424d-1ec4-403d-bbb4-7e43f3e07713" />
+
+<img width="279" height="428" alt="image" src="https://github.com/user-attachments/assets/b04c21eb-c6d8-4519-8765-4636183b8b23" />
+
+
+
 ⸻
 
 
-Key Observations
+## Key Observations
 
-During this lab the following observations were made:
+### During this lab the following observations were made:
 	•	NumPy arrays allow efficient numerical operations.
 	•	Vectorized operations make calculations faster than regular Python loops.
 	•	Pandas Series provide labeled one-dimensional data structures.
@@ -326,7 +355,7 @@ During this lab the following observations were made:
 
 ⸻
 
-Lessons Learned
+## Lessons Learned
 
 From this lab, the following skills were gained:
 	•	creating NumPy arrays
