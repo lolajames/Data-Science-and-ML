@@ -47,13 +47,13 @@ The first step is to import the required Python libraries.
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-```python
+```
 
 Explanation:
 
-* `matplotlib.pyplot` is used for creating plots and charts.
-* `numpy` is used for numerical computations.
-* `pandas` is used for handling structured datasets.
+* matplotlib.pyplot is used for creating plots and charts.
+* numpy is used for numerical computations.
+* pandas is used for handling structured datasets.
 
 ---
 
@@ -401,15 +401,33 @@ plt.show()
 
 
 * Bar chart output
-* Scatter plot output
+* Pie Plot output
+* Heat map of Correlation Matrix
 *  Line chart output
+* Scatter plot output
+* Box Plot
+* Volin Plot
+* Histogram
+
 
 ```
-![Line Chart](screenshots/line_chart.png)
+<img width="589" height="400" alt="image" src="https://github.com/user-attachments/assets/140c1a63-0316-49c0-900a-d01742d5ab48" />
 
-![Bar Chart](screenshots/bar_chart.png)
+<img width="530" height="355" alt="image" src="https://github.com/user-attachments/assets/baedca85-083c-49eb-9c00-7324b6bf7812" />
 
-![Scatter Plot](screenshots/scatter_plot.png)
+<img width="572" height="373" alt="image" src="https://github.com/user-attachments/assets/5703db03-847c-469f-a8cc-76c678c00f6a" />
+
+<img width="552" height="359" alt="image" src="https://github.com/user-attachments/assets/775bc190-92e6-4abe-b2ae-90095696382a" />
+
+<img width="517" height="385" alt="image" src="https://github.com/user-attachments/assets/bddd4264-b393-45a4-8a28-6effb3049fef" />
+
+<img width="501" height="361" alt="image" src="https://github.com/user-attachments/assets/51dc8fe1-d8b4-40de-b884-b39f10fdb1d2" />
+
+<img width="549" height="389" alt="image" src="https://github.com/user-attachments/assets/505f577f-80d5-482b-a052-7faa34527db1" />
+
+<img width="501" height="368" alt="image" src="https://github.com/user-attachments/assets/e9b1cc48-3c48-4fae-89cc-b47396f99659" />
+
+
 ```
 
 ---
@@ -435,47 +453,8 @@ From this lab, the following skills were gained:
 * visualizing data to support analysis
 * understanding the role of visualization in Data Science workflows
 
-These skills are essential for **exploratory data analysis and presenting insights from data**.
 
-```
 
----
 
-### After adding this, your **Week 5 folder should now look like this**
 
-```
-
-week5
-├── README.md
-│
-├── day1-numpy-pandas
-│   ├── numpy_lab.ipynb
-│   ├── pandas_lab.ipynb
-│   └── README.md
-│
-└── day2-matplotlib
-├── matplotlib_lab.ipynb
-└── README.md
-
-```
-
----
-
-✅ This now **matches the same documentation process** used in your NumPy/Pandas lab:
-
-- Lab Title  
-- Objective  
-- Tools Used  
-- Step-by-Step Process  
-- Commands Executed  
-- Screenshots  
-- Observations  
-- Lessons Learned  
-
-Which means it satisfies the **assignment rubric**.
-
----
-
-If you want, I can also show you **one small trick that will make your entire GitHub repository look like a professional Data Scientist portfolio instead of just a class assignment.**
-```
 
