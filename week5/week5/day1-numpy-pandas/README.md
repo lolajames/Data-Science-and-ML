@@ -356,7 +356,6 @@ Screenshots of Results
 ⸻
 
 ## Lessons Learned
-
 From this lab, the following skills were gained:
 	•	creating NumPy arrays
 	•	understanding array properties such as shape and size
