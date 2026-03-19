@@ -47,60 +47,81 @@ The first step is to import the **NumPy** library. NumPy is widely used in data 
 
 ```python
 import numpy as np
+```
 
 NumPy is used for efficient numerical computations and array operations.
 
-## Step 2 – Create a 1D NumPy Array
+# Step 2 – Create a 1D NumPy Array
 
 A one-dimensional array was created from a Python list.
+```python
 arr1d = np.array([1,2,3,4,5])
 arr1d
+```
 This produces a simple numeric Step 3 – Create a 2D NumPy Array
 
-## A two-dimensional array was created from a nested list.
+# A two-dimensional array was created from a nested list.
+```python 
 arr2d = np.array([[1,2,3],[4,5,6]])
 arr2dA 
+```
 2D array represents rows and columns similar to a table.
 
-## Step 4 – Create an Array of Zeros
+# Step 4 – Create an Array of Zeros
 NumPy can generate arrays filled with zeros.
+```python
 zeros_arr = np.zeros((3,4))
 print(zeros_arr)
+```
 This creates a 3×4 matrix filled with zeros.
 
-## Step 5 – Check Array Shape
+# Step 5 – Check Array Shape
 
 The shape shows the dimensions of the array.
+```python
 shape = arr2d.shape
 shape
 Output:(2,3)
+```
+
 Meaning:
 	•	2 rows
 	•	3 columns
     
-## Step 6 – Check Array Size
+# Step 6 – Check Array Size
 
 The size gives the total number of elements in the array.
+```python
 size = arr2d.size
 size
-## Step 7 – Check Data Type
+```
+# Step 7 – Check Data Type
 
 NumPy arrays store elements of the same type.
+```python 
 data_type = arr2d.dtype
 data_type
-## Step 8 – Perform Arithmetic Operations
+```
+
+# Step 8 – Perform Arithmetic Operations
 
 **Addition**
+```python 
 addition = 2 + arr2d
-print(addition)
+print(addition)```
+
 
 **Subtraction**
+```python 
 substraction = arr2d - 3
 print(substraction)
-
+```
 **Multiplication**
+```python 
 Multiplication = 4 * arr2d
 print(Multiplication)
+```
+
 
 
 
