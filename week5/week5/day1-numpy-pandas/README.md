@@ -291,17 +291,29 @@ Screenshots of Results
 
 
 
+## Pandas DataFrame SCREENSHOT
+<img width="645" height="478" alt="image" src="https://github.com/user-attachments/assets/78db84f4-6dc2-453a-a6d3-e27e9e9a4d91" />
 
+<img width="618" height="432" alt="image" src="https://github.com/user-attachments/assets/3c300acf-b4e1-4291-9fa7-a2634dec757b" />
 
+<img width="613" height="415" alt="image" src="https://github.com/user-attachments/assets/dd907391-ce04-4c23-95b4-8aaa7248d4c1" />
 
+<img width="573" height="429" alt="image" src="https://github.com/user-attachments/assets/33178ffc-9371-439d-b302-7ab1d3a6625a" />
 
+<img width="486" height="302" alt="image" src="https://github.com/user-attachments/assets/8270e150-b387-4389-937f-59a0dcda579b" />
 
+<img width="644" height="363" alt="image" src="https://github.com/user-attachments/assets/2a71a02b-9d36-4639-9124-0cc52451cdc6" />
 
+<img width="602" height="349" alt="image" src="https://github.com/user-attachments/assets/2daafc15-d49d-4e83-b9bf-5c923533ed72" />
 
-![Pandas DataFrame](screenshots/pandas_dataframe.png)
+<img width="605" height="342" alt="image" src="https://github.com/user-attachments/assets/3e48448f-c7e7-48e5-964b-ecfe4e80b805" />
 
+<img width="617" height="304" alt="image" src="https://github.com/user-attachments/assets/56332999-22ec-4893-bb6f-2ea6cccae993" />
+
+<img width="601" height="325" alt="image" src="https://github.com/user-attachments/assets/9552a748-dd4e-4ae6-9f7d-2050a549af8e" />
 
 ⸻
+
 
 Key Observations
 
