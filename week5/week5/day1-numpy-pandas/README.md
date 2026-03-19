@@ -258,7 +258,8 @@ vertical_com=pd.concat([df_1,df_2], axis=0, keys=['df_1','df_2'])
 
 horizontal_com=pd.concat([df_1,df_2], axis=1, keys=['df_1','df_2'])
 
-vertical_com.loc["df_1",0].iloc[0]```
+vertical_com.loc["df_1",0].iloc[0]
+```
 
 
 ⸻
