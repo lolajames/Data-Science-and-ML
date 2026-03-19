@@ -266,16 +266,37 @@ vertical_com.loc["df_1",0].iloc[0]
 
 Screenshots of Results
 
-Include screenshots showing:
-	•	NumPy arrays
-	•	array operations
-	•	Pandas Series output
-	•	DataFrame creation
-	•	concatenation results
 
-Example:
 
-![NumPy Array Output](screenshots/numpy_array_creation.png)
+<img width="343" height="413" alt="NumPy arrays" src="https://github.com/user-attachments/assets/37b8d15d-6b1e-4a23-81c5-531cb85537cf" />
+<img width="839" height="456" alt="Array attributes_1" src="https://github.com/user-attachments/assets/a4a9df7f-cb3f-487d-a324-611a3feaf460" />
+<img width="1335" height="297" alt="Array attributes_2" src="https://github.com/user-attachments/assets/4922cdd9-460d-4c29-bde3-85993610c229" />
+<img width="587" height="430" alt="image" src="https://github.com/user-attachments/assets/fbe60be2-2aa4-489c-9e7f-256f8835be0d" />
+<img width="417" height="359" alt="image" src="https://github.com/user-attachments/assets/45db2537-472b-402c-8e79-424be98e4373" />
+<img width="602" height="476" alt="image" src="https://github.com/user-attachments/assets/1186bc31-1586-453f-8a93-dd78ae899c0b" />
+<img width="659" height="435" alt="image" src="https://github.com/user-attachments/assets/ee5a04be-13fb-42a7-b130-b554f552fed6" />
+<img width="495" height="356" alt="image" src="https://github.com/user-attachments/assets/6a340b9c-7c38-4da5-9d9a-9564957045c1" />
+<img width="640" height="450" alt="image" src="https://github.com/user-attachments/assets/80fa7c30-ca56-4334-8f6c-6cbc70539925" />
+<img width="406" height="161" alt="image" src="https://github.com/user-attachments/assets/77b94347-f125-4ded-ada7-f1a5925af676" />
+<img width="689" height="480" alt="image" src="https://github.com/user-attachments/assets/e57cbd03-1451-4c79-9d0f-943d22cc0f92" />
+<img width="431" height="289" alt="image" src="https://github.com/user-attachments/assets/b372e3c9-fdba-4932-9e82-7831979f53a9" />
+<img width="443" height="441" alt="image" src="https://github.com/user-attachments/assets/da7405d5-09cc-4727-a4ee-3f444885fffc" />
+<img width="612" height="459" alt="image" src="https://github.com/user-attachments/assets/d6b3abe7-4adf-46ec-b31a-268f2f8dbddf" />
+<img width="595" height="435" alt="image" src="https://github.com/user-attachments/assets/9a928dd0-b45a-4d58-8341-1a4b2d1f8962" />
+<img width="716" height="480" alt="image" src="https://github.com/user-attachments/assets/dd018b2c-4215-4e5d-a9c0-799b65ec8263" />
+<img width="595" height="378" alt="image" src="https://github.com/user-attachments/assets/82ea0d07-c122-478c-8388-00509dd9b876" />
+<img width="652" height="442" alt="image" src="https://github.com/user-attachments/assets/da697aa9-701b-4040-bc4f-c98a3a5e43c7" />
+
+<img width="573" height="377" alt="image" src="https://github.com/user-attachments/assets/f5c1ceb4-eafc-479e-a30a-8c62d03234d9" />
+
+
+
+
+
+
+
+
+
 
 ![Pandas DataFrame](screenshots/pandas_dataframe.png)
 
