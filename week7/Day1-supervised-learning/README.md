@@ -20,6 +20,10 @@ This lab focuses on:
 - Implementing models using both **OOP Approach** and **Procedural Approach**
 - Saving trained models
 
+---
+<img width="516" height="289" alt="image" src="https://github.com/user-attachments/assets/1d3ce891-9c77-4e60-96bf-58b4bcd1b590" />
+
+
 This lab helps build foundational skills required for **classification tasks, predictive modeling, and customer churn analysis in Machine Learning**.
 
 ---
