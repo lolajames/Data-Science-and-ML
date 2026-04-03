@@ -1,5 +1,4 @@
-<img width="574" height="324" alt="image" src="https://github.com/user-attachments/assets/8031c360-5742-412a-96fb-6369b79781d9" />
-````markdown
+
 # Lab Title
 ## Supervised Learning Models for Customer Churn Prediction
 
@@ -802,11 +801,14 @@ save_svm(svm_model, 'churn_svm_procedural.pkl')
 # Screenshots of Results
 
 ## Dataset Preview and Information
+
 <img width="547" height="298" alt="image" src="https://github.com/user-attachments/assets/ccffb96e-bbe6-41cb-b4df-0a08fd1db758" />
 
 <img width="542" height="322" alt="image" src="https://github.com/user-attachments/assets/10935e1c-8593-4879-829b-90ae33b2f566" />
 
 <img width="574" height="324" alt="image" src="https://github.com/user-attachments/assets/a12f7aa1-d007-4885-9c2d-60d860efe83f" />
+<img width="574" height="324" alt="image" src="https://github.com/user-attachments/assets/8031c360-5742-412a-96fb-6369b79781d9" />
+
 
 ## Scaling and Train-Test Split
 <img width="604" height="225" alt="image" src="https://github.com/user-attachments/assets/c7341aa4-e455-4038-b8d1-4a25ce3f76b7" />
