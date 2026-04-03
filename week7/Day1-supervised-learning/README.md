@@ -669,31 +669,133 @@ accuracy, auc = evaluate_model(model, val_X, val_y)
 save_model(model, 'churn_model.pkl')
 ```
 
+
+
+
+````markdown
+# Support Vector Machine (SVM)
+
+Support Vector Machine (SVM) is a supervised learning algorithm used for both classification and regression tasks. It works by finding the optimal hyperplane that separates data points into different classes.
+
 ---
-
-# Support Vector Machines (SVMs)
-
-Support Vector Machine (SVM) is a supervised learning algorithm that can be used for classification and regression tasks. It works by finding the hyperplane that maximally separates the classes in the feature space. 
 
 ## The Most Commonly Used Hyperparameters for Support Vector Machines (SVMs)
 
-* **C**: The regularization parameter. It controls the trade-off between the margin and the misclassification error.
-* **kernel**: The kernel function used to transform the data into a higher dimensional space.
-* **gamma**: The kernel coefficient. It is used to control the spread of the kernel.
-* **degree**: The degree of the polynomial kernel.
-
-### Common Values for These Hyperparameters
-
-Your uploaded text shows the SVM hyperparameter explanation, but it does **not include the exact SVM OOP/procedural code block**. So this README keeps only the exact supported content for SVM and does not invent missing code. 
+- **C**: 0.1, 1, 10, 100  
+- **kernel**: 'linear', 'rbf', 'poly', 'sigmoid'  
+- **gamma**: 'scale', 'auto', 0.1, 0.01, 0.001  
+- **degree**: 2, 3, 4, 5  
 
 ---
 
-# Key Observations
+## SVM – Train Model
 
-* Label encoding was applied to `Geography` and `Gender` in the KNN workflow.
-* MinMaxScaler was used to scale selected numerical variables.
-* Decision Tree and Random Forest workflows used `pd.get_dummies()` instead of label encoding.
-* The Random Forest model produced the strongest validation performance among the fully coded models in the uploaded material. 
+```python
+svm_model = SVC(probability=True)
+svm_model.fit(train_X, train_y)
+
+svm_pred = svm_model.predict(val_X)
+````
+
+---
+
+## SVM – Evaluate Model
+
+```python
+accuracy = accuracy_score(val_y, svm_pred)
+print(f'Model accuracy: {accuracy}')
+
+y_pred_proba = svm_model.predict_proba(val_X)[:,1]
+auc = roc_auc_score(val_y, y_pred_proba)
+print(f'Model auc score: {auc}')
+```
+
+---
+
+## SVM – Save Model
+
+```python
+joblib.dump(svm_model, 'churn_svm_model.pkl')
+```
+
+---
+
+## SVM – OOP Approach
+
+```python
+class SVMModel:
+    def __init__(self):
+        self.model = None
+
+    def train(self, X, y):
+        self.model = SVC(probability=True)
+        self.model.fit(X, y)
+
+    def predict(self, X):
+        return self.model.predict(X)
+
+    def evaluate(self, X, y):
+        pred = self.model.predict(X)
+        accuracy = accuracy_score(y, pred)
+        print(f'Model accuracy: {accuracy}')
+
+        y_pred_proba = self.model.predict_proba(X)[:,1]
+        auc = roc_auc_score(y, y_pred_proba)
+        print(f'Model auc score: {auc}')
+
+    def save(self, path):
+        joblib.dump(self.model, path)
+```
+
+---
+
+## SVM – OOP Approach # Usage
+
+```python
+svm = SVMModel()
+svm.train(train_X, train_y)
+svm.evaluate(val_X, val_y)
+
+svm.save('churn_svm_oop.pkl')
+```
+
+---
+
+## SVM – Procedural Approach
+
+```python
+def train_svm(train_X, train_y):
+    model = SVC(probability=True)
+    model.fit(train_X, train_y)
+    return model
+
+def evaluate_svm(model, val_X, val_y):
+    pred = model.predict(val_X)
+    accuracy = accuracy_score(val_y, pred)
+    print(f'Model accuracy: {accuracy}')
+
+    y_pred_proba = model.predict_proba(val_X)[:,1]
+    auc = roc_auc_score(val_y, y_pred_proba)
+    print(f'Model auc score: {auc}')
+
+def save_svm(model, path):
+    joblib.dump(model, path)
+```
+
+---
+
+## SVM – Procedural Approach # Usage
+
+```python
+svm_model = train_svm(train_X, train_y)
+evaluate_svm(svm_model, val_X, val_y)
+
+save_svm(svm_model, 'churn_svm_procedural.pkl')
+```
+
+```
+
+
 
 ---
 
