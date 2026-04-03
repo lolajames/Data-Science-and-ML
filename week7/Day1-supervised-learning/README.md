@@ -1,4 +1,4 @@
-
+<img width="574" height="324" alt="image" src="https://github.com/user-attachments/assets/8031c360-5742-412a-96fb-6369b79781d9" />
 ````markdown
 # Lab Title
 ## Supervised Learning Models for Customer Churn Prediction
@@ -799,7 +799,38 @@ save_svm(svm_model, 'churn_svm_procedural.pkl')
 
 ```
 
+# Screenshots of Results
 
+## Dataset Preview and Information
+<img width="547" height="298" alt="image" src="https://github.com/user-attachments/assets/ccffb96e-bbe6-41cb-b4df-0a08fd1db758" />
+
+<img width="542" height="322" alt="image" src="https://github.com/user-attachments/assets/10935e1c-8593-4879-829b-90ae33b2f566" />
+
+<img width="574" height="324" alt="image" src="https://github.com/user-attachments/assets/a12f7aa1-d007-4885-9c2d-60d860efe83f" />
+
+## Scaling and Train-Test Split
+<img width="604" height="225" alt="image" src="https://github.com/user-attachments/assets/c7341aa4-e455-4038-b8d1-4a25ce3f76b7" />
+
+## KNN  Train model
+<img width="469" height="332" alt="image" src="https://github.com/user-attachments/assets/c299a9ca-6c7f-465a-b514-564020bb450b" />
+
+## OOP Approach
+<img width="691" height="367" alt="image" src="https://github.com/user-attachments/assets/5622438c-6e61-4cab-91ad-3b828858c384" />
+<img width="359" height="167" alt="image" src="https://github.com/user-attachments/assets/4fcec515-cc50-419f-99e0-b0d56f2d2f4d" />
+
+
+## Procedural Approach
+<img width="661" height="376" alt="image" src="https://github.com/user-attachments/assets/5bd57b7e-ff93-4532-a5f1-b730847f661d" />
+<img width="395" height="94" alt="image" src="https://github.com/user-attachments/assets/3052b1ef-6c87-4b15-ae65-cc640b087fc4" />
+
+
+
+
+## Evaluation Results
+![Evaluation](screenshots/evaluation.png)
+
+## Visualization (Scatter Plot)
+![Scatter Plot](screenshots/scatter_plot.png)
 
 
 
