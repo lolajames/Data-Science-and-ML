@@ -733,13 +733,15 @@ file_path_ = '/content/drive/My Drive/Churn Project/churn.csv'
 
 ## 1. Library Import and Google Drive Mount
 
-<img width="427" height="395" alt="image" src="https://github.com/user-attachments/assets/7ea4022b-02e4-4537-ab40-40e75eab8b0e" />
 
 <img width="563" height="213" alt="image" src="https://github.com/user-attachments/assets/fd6346b0-e3e9-44f8-af79-571ab2173630" />
 
 
 
 ## 2. OOP XGBoost Result
+
+<img width="427" height="395" alt="image" src="https://github.com/user-attachments/assets/7ea4022b-02e4-4537-ab40-40e75eab8b0e" />
+
 
 <img width="427" height="395" alt="image" src="https://github.com/user-attachments/assets/4e3c051f-f456-4d6a-864f-6e52705f7e34" />
 
