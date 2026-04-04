@@ -796,7 +796,6 @@ evaluate_svm(svm_model, val_X, val_y)
 save_svm(svm_model, 'churn_svm_procedural.pkl')
 ```
 
-```
 
 # Screenshots of Results
 
