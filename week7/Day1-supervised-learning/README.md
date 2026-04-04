@@ -824,14 +824,18 @@ save_svm(svm_model, 'churn_svm_procedural.pkl')
 <img width="661" height="376" alt="image" src="https://github.com/user-attachments/assets/5bd57b7e-ff93-4532-a5f1-b730847f661d" />
 <img width="395" height="94" alt="image" src="https://github.com/user-attachments/assets/3052b1ef-6c87-4b15-ae65-cc640b087fc4" />
 
+## Random Forest Classifier
+<img width="419" height="393" alt="image" src="https://github.com/user-attachments/assets/9475ffc1-8f5e-41fb-b912-288b799915fe" />
 
+<img width="427" height="113" alt="image" src="https://github.com/user-attachments/assets/3f93ba8a-3019-4e8c-8108-ebcbfaf6d76a" />
 
+<img width="446" height="414" alt="image" src="https://github.com/user-attachments/assets/274ec7e5-2f4f-4b6a-9a9a-80a552b8cb59" />
 
-## Evaluation Results
-![Evaluation](screenshots/evaluation.png)
+## Support Vector Machines (SVMs)
 
-## Visualization (Scatter Plot)
-![Scatter Plot](screenshots/scatter_plot.png)
+<img width="457" height="425" alt="image" src="https://github.com/user-attachments/assets/2a0f4162-26bc-4573-9fd7-a2d3fe673262" />
+
+<img width="441" height="170" alt="image" src="https://github.com/user-attachments/assets/28c7ac09-3320-455c-b4fe-c9e58948619d" />
 
 
 
