@@ -2,7 +2,6 @@
 # Lab Title
 ## Supervised Learning Models for Customer Churn Prediction
 
----
 
 # Objective
 
